@@ -3,7 +3,7 @@
 
 # User-specific files
 *.suo
-*.user
+
 *.userosscache
 *.sln.docstates
 
@@ -187,7 +187,7 @@ _pkginfo.txt
 ClientBin/
 ~$*
 *~
-*.dbmdl
+
 *.dbproj.schemaview
 *.jfm
 *.pfx
@@ -211,8 +211,7 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
-*.mdf
-*.ldf
+
 
 # Business Intelligence projects
 *.rdl.data
