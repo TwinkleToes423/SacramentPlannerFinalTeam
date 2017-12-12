@@ -44,14 +44,14 @@ namespace SacramentPlanner
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                   "Default",
-                   "",
-                   new { controller = "Meetings", action = "Index" }
-                   ); 
+                   //"Default",
+                   //"",
+                   //new { controller = "Meetings", action = "Index" }
+                   //); 
 
                      //Here's the default in case this breaks it
-                    //name: "default",
-                    //template: "{controller=Home}/{action=Index}/{id?}");
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
