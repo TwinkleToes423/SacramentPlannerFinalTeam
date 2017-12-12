@@ -39,15 +39,16 @@ namespace SacramentPlanner
                 app.UseExceptionHandler("/Home/Error");
             }
 
+
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                   //"Default",
-                   //"",
-                   //new { controller = "Meetings", action = "Index" }
-                   //); 
+                   "Default",
+                   "",
+                   new { controller = "Meetings", action = "Index" }
+                   ); 
 
                      //Here's the default in case this breaks it
                     name: "default",
