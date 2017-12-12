@@ -39,6 +39,7 @@ namespace SacramentPlanner
                 app.UseExceptionHandler("/Home/Error");
             }
 
+
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
