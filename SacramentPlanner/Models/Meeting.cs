@@ -16,12 +16,12 @@ namespace SacramentPlanner.Models
         public int MeetingId { get; set; }
         public int SpeakerId { get; set; }
         public string Conductor { get; set; }
-        public string OpeningHymn { get; set; }
+        public int OpeningHymn { get; set; }
         public string OpeningPrayer { get; set; }
-        public string SacramentHymn { get; set; }
-        public string IntermediateHymn { get; set; }
+        public int SacramentHymn { get; set; }
+        public int IntermediateHymn { get; set; }
         public int ClosingHymn { get; set; }
-        public int ClosingPrayer { get; set; }
+        public string ClosingPrayer { get; set; }
         public DateTime Date { get; set; }
 
         public Speaker Speaker { get; set; }
